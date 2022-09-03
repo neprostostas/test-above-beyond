@@ -1,0 +1,32 @@
+.textBlock {
+    margin: 36px 0 16px;
+    padding: 0 50px;
+    font-style: normal;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.textBlock h2 {
+    padding: 36px 20px 16px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #138CCC;
+}
+
+.textBlock p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+}
+
+@media (max-width: 485px) {
+    .textBlock {
+        padding: 0 29px;
+        max-width: 390px;
+    }
+}

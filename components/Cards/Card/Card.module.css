@@ -1,0 +1,26 @@
+.cardWrapper {
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 23px;
+    max-width: 337px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.27);
+}
+
+.cardWrapper:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+.cardWrapper h1, .cardWrapper p, .cardImage {
+    padding-bottom: 13px;
+}
+
+.cardWrapper p {
+    text-align: center;
+}

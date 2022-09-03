@@ -1,0 +1,54 @@
+.featuredServices p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #2B2A29;
+    margin: 0;
+    padding: 36px 20px 25px;
+    transition: all .5s ease;
+}
+
+.cardsWrapperGrid {
+    margin: 0 25px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    transition: all .5s ease;
+}
+
+@media (min-width: 880px) {
+    .cardsWrapperGrid {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (min-width: 1200px) {
+    .cardsWrapperGrid {
+        transition: all .5s ease;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cardsWrapperGrid {
+        transition: all .5s ease;
+        gap: 50px 100px;
+    }
+
+    .featuredServices p {
+        padding: 50px 20px 50px;
+        transition: all .5s ease;
+    }
+}
+
+@media (max-width: 540px) {
+    .featuredServices p {
+        margin: 0 auto;
+        max-width: 217px;
+    }
+}

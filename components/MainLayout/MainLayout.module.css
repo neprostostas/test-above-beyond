@@ -1,0 +1,26 @@
+.customMain {
+    margin-top: 60px;
+}
+
+.ourProject {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #2B2A29;
+    margin: 0;
+    padding: 36px 20px 0;
+}
+
+@media (max-width: 540px) {
+    .ourProject p {
+        margin: 0 auto;
+        max-width: 210px;
+    }
+}
+
+.carouselWrapper {
+    padding: 0 28px;
+}
